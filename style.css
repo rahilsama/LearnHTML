@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  background-color: #999;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a:link {
+  color: black;
+}
+
+body {
+  border: 5px solid black;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.shipping {
+  font-size: 15px;
+  color: #999;
+}
