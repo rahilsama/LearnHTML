@@ -1,31 +1,49 @@
 * {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 h1 {
   text-align: center;
   background-color: #999;
+  padding: 15px;
 }
 
 h2 {
   font-size: 16px;
+  margin: 20px 0;
 }
 
+a {
+  margin-bottom: 30px;
+}
 a:link {
   color: black;
 }
 
+/* p {
+  margin-bottom: 15px;
+} */
+
 body {
-  border: 5px solid black;
 }
 
 button {
+  font-size: 20px;
   color: white;
   background-color: black;
+  width: 100%;
+  padding: 20px;
 }
 
 button:hover {
   color: black;
   background-color: white;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .price {
@@ -35,4 +53,15 @@ button:hover {
 .shipping {
   font-size: 15px;
   color: #999;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+  border: 5px solid black;
+}
+
+.info {
+  margin-bottom: 15px;
 }
