@@ -91,3 +91,32 @@ h1::before {
   margin-right: 10px;
   border: 0;
 }
+
+.color {
+  /* display: inline; */
+  display: inline-block;
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
+}
