@@ -1,7 +1,8 @@
 * {
   font-family: sans-serif;
-  padding: 0;
-  margin: 0;
+  padding: 0 0;
+  margin: 0 0;
+  box-sizing: border-box;
 }
 h1 {
   text-align: center;
@@ -11,7 +12,7 @@ h1 {
 
 h2 {
   font-size: 16px;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 a {
@@ -44,17 +45,21 @@ button:hover {
 
 li {
   margin-bottom: 10px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .price {
+  display: inline-block;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .shipping {
+  float: right;
   font-size: 15px;
   color: #999;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .container {
@@ -65,7 +70,7 @@ li {
 }
 
 .info {
-  margin-bottom: 15px;
+  margin: 20px 0;
 }
 
 h1::before {
@@ -82,13 +87,13 @@ h1::before {
 }
 
 .options {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .options button {
   display: inline;
   width: 5px;
   padding: 10px 10px;
-  margin-right: 10px;
+  margin-right: 30px;
   border: 0;
 }
 
@@ -98,7 +103,7 @@ h1::before {
   background-color: black;
   height: 22px;
   width: 22px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .color-blue {
@@ -119,4 +124,33 @@ h1::before {
 
 .color-brown {
   background-color: brown;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.product-img {
+  display: inline-block;
+  width: 273px;
+  height: 273px;
+  /* height: auto; */
+  float: left;
+}
+
+.product-price {
+  align-items: center;
+  display: inline-block;
+  width: 271px;
+  height: 273px;
+  padding: 20px 20px;
+  clear: both;
+}
+
+.product-details {
+  display: inline-block;
+  width: 271px;
+  height: 273px;
+  padding: 20px 20px;
+  float: right;
 }
