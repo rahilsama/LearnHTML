@@ -55,6 +55,7 @@ li {
 }
 
 .shipping {
+  margin-top: 2px;
   float: right;
   font-size: 15px;
   color: #999;
@@ -100,6 +101,7 @@ h1::before {
 .color {
   /* display: inline; */
   display: inline-block;
+  cursor: pointer;
   background-color: black;
   height: 22px;
   width: 22px;
