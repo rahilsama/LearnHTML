@@ -130,13 +130,12 @@ h1::before {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
-.product-img {
+/* .product-img {
   display: inline-block;
   width: 273px;
   height: 273px;
-  /* height: auto; */
   float: left;
 }
 
@@ -155,4 +154,19 @@ img {
   height: 273px;
   padding: 20px 20px;
   float: right;
+} */
+
+.product {
+  display: flex;
+}
+
+.product-details {
+  flex: 1 1 0;
+  width: 0;
+  padding: 10px 20px;
+}
+
+.product-img {
+  flex: 1 1 0;
+  width: 0;
 }
